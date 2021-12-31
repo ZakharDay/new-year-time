@@ -12,12 +12,49 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+.timezonesContainer {
+  width: 100%;
+}
+
 body {
-  width: 380px;
   margin: 0;
-  padding: 51px 0 0 0;
   font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: var(--black);
+}
+
+h1 {
+  position: fixed;
+  width: 100%;
+  top: 10px;
+  text-align: center;
+}
+
+.timezonesContainer {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+#timezonesRow {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  // width: 100%;
+  padding: 0 800px;
+  left: 0;
+  top: 100px;
+
+  & > div {
+    width: 700px;
+    padding: 20px;
+    opacity: 0.4;
+
+    &.current {
+      opacity: 1;
+    }
+  }
 }

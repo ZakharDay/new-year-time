@@ -3,4 +3,5 @@ yarn-error.log
 /node_modules
 /dev_build/*.js
 /dev_build/*.css
+/dev_build/*.scss
 /dev_build/*.html
