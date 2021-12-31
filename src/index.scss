@@ -1,0 +1,23 @@
+:root {
+  --blue: #005bff;
+  --grey: #777;
+  --black: #222;
+  --border: #dee2e6;
+  --red1: #ff5252;
+  --red2: #ff9c9c;
+  --superwallet: #1161fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 380px;
+  margin: 0;
+  padding: 51px 0 0 0;
+  font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--black);
+}
